@@ -61,8 +61,3 @@
 - `TodoListInteractorTests`
 - `TodoEditorPresenterTests`
 
-## Запуск
-
-1. Открыть проект в Xcode.
-2. Выбрать схему `EffectiveMobileToDo`.
-3. Запустить приложение через `Cmd + R`.
