@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC1612B2FB38DE1001E3BAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACC1612A2FB38DE1001E3BAE /* README.md */; };
+		ACC1612C2FB38DE1001E3BAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACC1612A2FB38DE1001E3BAE /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC160C32FB380F4001E3BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC160A42FB380F1001E3BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC160AB2FB380F1001E3BAE;
+			remoteInfo = EffectiveMobileToDo;
+		};
+		ACC160CD2FB380F4001E3BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC160A42FB380F1001E3BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC160AB2FB380F1001E3BAE;
+			remoteInfo = EffectiveMobileToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC160AC2FB380F1001E3BAE /* EffectiveMobileToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveMobileToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC160C22FB380F4001E3BAE /* EffectiveMobileToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveMobileToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC160CC2FB380F4001E3BAE /* EffectiveMobileToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveMobileToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC1612A2FB38DE1001E3BAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ACC160D42FB380F4001E3BAE /* Exceptions for "EffectiveMobileToDo" folder in "EffectiveMobileToDo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ACC160AB2FB380F1001E3BAE /* EffectiveMobileToDo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACC160AE2FB380F1001E3BAE /* EffectiveMobileToDo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ACC160D42FB380F4001E3BAE /* Exceptions for "EffectiveMobileToDo" folder in "EffectiveMobileToDo" target */,
+			);
+			path = EffectiveMobileToDo;
+			sourceTree = "<group>";
+		};
+		ACC160C52FB380F4001E3BAE /* EffectiveMobileToDoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EffectiveMobileToDoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC160A92FB380F1001E3BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160BF2FB380F4001E3BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160C92FB380F4001E3BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC160A32FB380F1001E3BAE = {
+			isa = PBXGroup;
+			children = (
+				ACC1612A2FB38DE1001E3BAE /* README.md */,
+				ACC160AE2FB380F1001E3BAE /* EffectiveMobileToDo */,
+				ACC160C52FB380F4001E3BAE /* EffectiveMobileToDoTests */,
+				ACC160AD2FB380F1001E3BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC160AD2FB380F1001E3BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC160AC2FB380F1001E3BAE /* EffectiveMobileToDo.app */,
+				ACC160C22FB380F4001E3BAE /* EffectiveMobileToDoTests.xctest */,
+				ACC160CC2FB380F4001E3BAE /* EffectiveMobileToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC160AB2FB380F1001E3BAE /* EffectiveMobileToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC160D52FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDo" */;
+			buildPhases = (
+				ACC160A82FB380F1001E3BAE /* Sources */,
+				ACC160A92FB380F1001E3BAE /* Frameworks */,
+				ACC160AA2FB380F1001E3BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACC160AE2FB380F1001E3BAE /* EffectiveMobileToDo */,
+			);
+			name = EffectiveMobileToDo;
+			packageProductDependencies = (
+			);
+			productName = EffectiveMobileToDo;
+			productReference = ACC160AC2FB380F1001E3BAE /* EffectiveMobileToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC160C12FB380F4001E3BAE /* EffectiveMobileToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC160DA2FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDoTests" */;
+			buildPhases = (
+				ACC160BE2FB380F4001E3BAE /* Sources */,
+				ACC160BF2FB380F4001E3BAE /* Frameworks */,
+				ACC160C02FB380F4001E3BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC160C42FB380F4001E3BAE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACC160C52FB380F4001E3BAE /* EffectiveMobileToDoTests */,
+			);
+			name = EffectiveMobileToDoTests;
+			packageProductDependencies = (
+			);
+			productName = EffectiveMobileToDoTests;
+			productReference = ACC160C22FB380F4001E3BAE /* EffectiveMobileToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC160CB2FB380F4001E3BAE /* EffectiveMobileToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC160DD2FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDoUITests" */;
+			buildPhases = (
+				ACC160C82FB380F4001E3BAE /* Sources */,
+				ACC160C92FB380F4001E3BAE /* Frameworks */,
+				ACC160CA2FB380F4001E3BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC160CE2FB380F4001E3BAE /* PBXTargetDependency */,
+			);
+			name = EffectiveMobileToDoUITests;
+			packageProductDependencies = (
+			);
+			productName = EffectiveMobileToDoUITests;
+			productReference = ACC160CC2FB380F4001E3BAE /* EffectiveMobileToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC160A42FB380F1001E3BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					ACC160AB2FB380F1001E3BAE = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					ACC160C12FB380F4001E3BAE = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = ACC160AB2FB380F1001E3BAE;
+					};
+					ACC160CB2FB380F4001E3BAE = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = ACC160AB2FB380F1001E3BAE;
+					};
+				};
+			};
+			buildConfigurationList = ACC160A72FB380F1001E3BAE /* Build configuration list for PBXProject "EffectiveMobileToDo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC160A32FB380F1001E3BAE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACC160AD2FB380F1001E3BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC160AB2FB380F1001E3BAE /* EffectiveMobileToDo */,
+				ACC160C12FB380F4001E3BAE /* EffectiveMobileToDoTests */,
+				ACC160CB2FB380F4001E3BAE /* EffectiveMobileToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC160AA2FB380F1001E3BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC1612B2FB38DE1001E3BAE /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160C02FB380F4001E3BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC1612C2FB38DE1001E3BAE /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160CA2FB380F4001E3BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC160A82FB380F1001E3BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160BE2FB380F4001E3BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC160C82FB380F4001E3BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC160C42FB380F4001E3BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC160AB2FB380F1001E3BAE /* EffectiveMobileToDo */;
+			targetProxy = ACC160C32FB380F4001E3BAE /* PBXContainerItemProxy */;
+		};
+		ACC160CE2FB380F4001E3BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC160AB2FB380F1001E3BAE /* EffectiveMobileToDo */;
+			targetProxy = ACC160CD2FB380F4001E3BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACC160D62FB380F4001E3BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveMobileToDo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC160D72FB380F4001E3BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveMobileToDo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACC160D82FB380F4001E3BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC160D92FB380F4001E3BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 435347QW6N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC160DB2FB380F4001E3BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectiveMobileToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EffectiveMobileToDo";
+			};
+			name = Debug;
+		};
+		ACC160DC2FB380F4001E3BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectiveMobileToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EffectiveMobileToDo";
+			};
+			name = Release;
+		};
+		ACC160DE2FB380F4001E3BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EffectiveMobileToDo;
+			};
+			name = Debug;
+		};
+		ACC160DF2FB380F4001E3BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435347QW6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GenzeUX.EffectiveMobileToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EffectiveMobileToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC160A72FB380F1001E3BAE /* Build configuration list for PBXProject "EffectiveMobileToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC160D82FB380F4001E3BAE /* Debug */,
+				ACC160D92FB380F4001E3BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC160D52FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC160D62FB380F4001E3BAE /* Debug */,
+				ACC160D72FB380F4001E3BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC160DA2FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC160DB2FB380F4001E3BAE /* Debug */,
+				ACC160DC2FB380F4001E3BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC160DD2FB380F4001E3BAE /* Build configuration list for PBXNativeTarget "EffectiveMobileToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC160DE2FB380F4001E3BAE /* Debug */,
+				ACC160DF2FB380F4001E3BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC160A42FB380F1001E3BAE /* Project object */;
+}
